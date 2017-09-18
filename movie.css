@@ -59,15 +59,16 @@ div#rating {
 
 /*评论栏内容*/
 div.comment_column {
-  width: 43%;
+  width: 44%;
   padding: 2%;
+  vertical-align: top;
   display: inline-block;
 }
 
 p.comment {
   width: 100%;
   border: 2px solid gray;
-  margin: 2%;
+  margin: 8px;
   padding: 5px;
   background-color: #E1D697;
   display: inline-block;
