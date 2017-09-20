@@ -2,17 +2,19 @@
 h1 {
   text-align: center;
   font-size: 24pt;
-  font-style: bold;
-  font-family: Tahoma Verdana sans-serif;
+  font-weight: bold;
+  font-family: "Tahoma", "Verdana", "sans-serif";
 }
 
 body {
   background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000");
   font-size: 8pt;
+  font-family: "Verdana", "Tahoma", "sans-serif";
 }
 
 div#banner {
   text-align: center;
+  margin: 0;
   background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000");
 }
 
@@ -65,10 +67,11 @@ div.comment_column {
   display: inline-block;
 }
 
+/*评论框*/
 p.comment {
   width: 100%;
   border: 2px solid gray;
-  margin: 8px;
+  margin: 2%;
   padding: 5px;
   background-color: #E1D697;
   display: inline-block;
@@ -85,7 +88,7 @@ p.comment q {
 }
 
 
-/*评论员名字*/
+/*评论员名字信息*/
 p.name {
   width: 100%;
   margin:2%;
@@ -129,6 +132,7 @@ p#bottom {
 }
 
 div#img_link {
-  vertical-align: right bottom;
-  float: right;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
