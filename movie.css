@@ -23,7 +23,7 @@ div#main_content {
   width : 800px;
   margin: auto;
   padding: 0;
-  border: 4px solid #666666;
+  border: 4px solid gray;
   overflow: hidden;
 }
 
@@ -39,37 +39,36 @@ div#left_content {
 }
 
 
-/*总体评价框*/
+/*总体评价（32%）*/
 div#rating {
   width: 100%;
   height: 83px;
   background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
 }
 
-#total_rate {
+div#rating #total_rate {
   font-size: 48pt;
   font-weight:bold; 
   vertical-align: text-bottom;
   color: red;
 }
 
-#note {
+div#rating #note {
   font-size: 8pt;
   color: white;
-  vertical-align: 50%;
 }
 
 /*评论栏内容*/
 div.comment_column {
-  width: 44%;
-  padding: 2%;
+  width: 47%;
+  padding: 1%;
   vertical-align: top;
   display: inline-block;
 }
 
 /*评论框*/
 p.comment {
-  width: 100%;
+  width: 94%;
   border: 2px solid gray;
   margin: 2%;
   padding: 5px;
